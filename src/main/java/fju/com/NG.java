@@ -7,7 +7,7 @@ public class NG {
         int Math[] = {70,60,60,20,40};
         for (int i = 0; i < 5; i++) {
             System.out.println
-                    (names[i] + "/t" + English[i] + "/t" + Math[i] + "/t" + (English[i]+Math[i])/2);
+                    (names[i] + "\t" + English[i] + "\t" + Math[i] + "\t" + (English[i]+Math[i])/2);
         }
     }
 }
