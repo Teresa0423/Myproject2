@@ -9,7 +9,10 @@ public class Customer {
         this.id = id;
         this.amount = amount;
     }
-    
+    public void println(){
+        float off = (amount/1000)+discount;
+        System.out.println(id+"\t"+amount+"\t"+"Total:"+(amount-off));
+    }
 
     //if (amount>=1000){
     //    amount-(int)(amount*discount);
