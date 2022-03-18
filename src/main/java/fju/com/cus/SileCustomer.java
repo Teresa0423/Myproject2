@@ -9,8 +9,8 @@ public class SileCustomer extends Customer{
     public SileCustomer (String id,int amount){
         super(id, amount);
     }
-
-    public int getTotal(){
-        return amount;
+    public void print(){
+        System.out.println(id+"\t"+amount+"\t"+"Total:"+
+                (amount-backmoney())+"\t"+"backmoney"+backmoney());
     }
 }
