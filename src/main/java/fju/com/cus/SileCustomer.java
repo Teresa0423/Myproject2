@@ -10,7 +10,7 @@ public class SileCustomer extends Customer{
         super(id, amount);
     }
     public void print(){
-        System.out.println(id+"\t"+amount+"\t"+"Total:"+
-                (amount-backmoney())+"\t"+"backmoney"+backmoney());
+        System.out.println(id+"\t"+ amount+"\t"+
+                (amount-backmoney())+"\t"+backmoney());
     }
 }

@@ -15,7 +15,7 @@ public class Customer {
 
     public void println(){
         //float off = (amount/1000)+discount;
-        System.out.println(id+"\t"+amount+"\t"+"Total:"+(amount-backmoney()));
+        System.out.println(id+"\t"+ amount+"\t"+(amount-backmoney()));
     }
 
     //if (amount>=1000){
