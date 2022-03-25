@@ -1,4 +1,4 @@
-package fju.com;
+package fju.com.score;
 
 public class NG {
     public static void main(String[] args){
