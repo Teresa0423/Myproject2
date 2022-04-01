@@ -12,6 +12,5 @@ public class Ticket {
         this.start = start;
         this.destination = destination;
     }
-    public void println(){
-    }
+    public void println(){}
 }
