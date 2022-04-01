@@ -2,8 +2,13 @@ package fju.com.cus;
 
 public class Tester {
     public static void main(String[] args){
-        Customer c1 = new Customer("0001",2000);
+        Customer c1 = new Customer("0001",1200);
+        Customer c2 = new Customer("0002",800);
+        SileCustomer c3 = new SileCustomer("0003",2000);
+        DiscountCustomer c5 = new DiscountCustomer("0005",900);
         c1.println();
-        //System.out.println(c1.id +"\t"+ c1.amount+"\t"+ c1.backmoney());
+        c2.println();
+        c3.println();
+        c5.println();
     }
 }

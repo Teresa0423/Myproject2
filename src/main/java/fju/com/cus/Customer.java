@@ -8,7 +8,6 @@ public class Customer {
         this.id = id;
         this.amount = amount;
     }
-
     public float backmoney(){
         return (amount/1000)*discount*1000;
     }
