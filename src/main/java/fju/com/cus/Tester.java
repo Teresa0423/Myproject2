@@ -3,6 +3,12 @@ package fju.com.cus;
 import java.util.ArrayList;
 import java.util.List;
 
+//一般會員  滿千送百
+//銀級會員  滿千送百  回饋金
+//金級會員
+//折扣會員  不論金額9折
+//白金會員  打3折且有20%的回饋金
+
 public class Tester {
     public static void main(String[] args){
         List<Customer> customers = new ArrayList<>();
