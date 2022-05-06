@@ -2,9 +2,10 @@ package fju.com.score;
 
 public class Scoring {
     public static void main(String[] args){
-        Student Mark = new Student();
-        Mark.name = "Mark";
-        Mark.english = 60;
-        Mark.math = 80;
+        Student mark = new Student("Mark",60,70);
+        Student hank = new Student("Hank",55,45);
+
+        mark.print();
+        hank.print();
     }
 }
