@@ -24,8 +24,12 @@ public class Runner {
             Date d2 = sdf.parse(exittime);
             System.out.println(d2);
             System.out.println(d2.getTime());
+            int mins = (int)(d2.getTime()-d.getTime())/1000/60;
+            System.out.println(mins);
+            int fee = 30*(mins/60); //四捨五入算錢
+            System.out.println("Fee: "+fee);
         }catch(Exception e){
-            System.out.println();
+            System.out.println("exit");
         }
         //Date d2 = new Date();
         //d2.setTime(d.getTime()+ms);
