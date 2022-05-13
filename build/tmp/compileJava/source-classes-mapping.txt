@@ -1,0 +1,34 @@
+fju/com/cus/Tester.java
+ fju.com.cus.Tester
+fju/com/ticket/Ticket.java
+ fju.com.ticket.Ticket
+fju/com/score/Scoring.java
+ fju.com.score.Scoring
+fju/com/score/Student.java
+ fju.com.score.Student
+fju/com/cus/PlatinumCustomer.java
+ fju.com.cus.PlatinumCustomer
+fju/com/cus/SileCustomer.java
+ fju.com.cus.SileCustomer
+fju/com/cus/Customer.java
+ fju.com.cus.Customer
+fju/com/cus/DiscountCustomer.java
+ fju.com.cus.DiscountCustomer
+fju/com/score/NG.java
+ fju.com.score.NG
+Hello.java
+ Hello
+fju/com/score/Printtable.java
+ fju.com.score.Printtable
+fju/com/ticket/Station.java
+ fju.com.ticket.Station
+fju/com/ticket/StudentTicket.java
+ fju.com.ticket.StudentTicket
+fju/com/ticket/ConcessiontTicket.java
+ fju.com.ticket.ConcessiontTicket
+fju/com/ticket/Tester.java
+ fju.com.ticket.Tester
+fju/com/cus/GoldenCustomer.java
+ fju.com.cus.GoldenCustomer
+fju/com/parking/Runner.java
+ fju.com.parking.Runner
