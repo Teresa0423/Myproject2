@@ -15,14 +15,21 @@ public class Runner {
         try{
             d=sdf.parse(entertime);
         }catch(Exception e){
-            System.out.println(entertime);
+            System.out.println("wrong fromat");
         }
         //Date d= sdf.parse(entertime);
         System.out.print(d);
-        long ms = 3*60*60*1000;
-        Date d2 = new Date();
-        d2.setTime(d.getTime()+ms);
-        System.out.println(d2);
-        System.out.println(d2.getTime());
+        //long ms = 3*60*60*1000;
+        try{
+            Date d2 = sdf.parse(exittime);
+            System.out.println(d2);
+            System.out.println(d2.getTime());
+        }catch(Exception e){
+            System.out.println();
+        }
+        //Date d2 = new Date();
+        //d2.setTime(d.getTime()+ms);
+        //System.out.println(d2);
+        //System.out.println(d2.getTime());
     }
 }
