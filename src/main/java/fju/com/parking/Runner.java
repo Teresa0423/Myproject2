@@ -29,7 +29,7 @@ public class Runner {
             int fee = 30*(mins/60);
             //3:14 => 90, 3:15 => 120
             //3:15-3:30 =>105
-            if (mins >= 195){
+            if (mins <= 195){
                 int fee1 = 30*(mins/60)+15;
                 System.out.println("Fee :"+fee1);
             }if (mins >= 211){
