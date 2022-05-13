@@ -11,7 +11,13 @@ public class Runner {
         String exittime = "11:00";
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         //Date d = new Date();
-        Date d= sdf.parse(entertime);
+        Date d = null;
+        try{
+            d=sdf.parse(entertime);
+        }catch(Exception e){
+            System.out.println(entertime);
+        }
+        //Date d= sdf.parse(entertime);
         System.out.print(d);
         long ms = 3*60*60*1000;
         Date d2 = new Date();
