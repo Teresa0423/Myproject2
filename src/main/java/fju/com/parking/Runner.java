@@ -9,10 +9,9 @@ public class Runner {
         String exittime = "11:00";
         Date d = new Date();
         System.out.print(d);
+        long ms = 3*60*60*1000;
         Date d2 = new Date();
         System.out.println(d2);
         System.out.println(d2.getTime());
-
-
     }
 }
