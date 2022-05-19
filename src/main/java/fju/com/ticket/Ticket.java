@@ -13,7 +13,19 @@ public class Ticket {
         this.destination = destination;
         int diff = Math.abs(start.id - destination.id);
         System.out.println("diff: "+diff);
-        if(start == Station.TAIPEI_STATION){
+        switch (diff){
+            case 100:
+                price = 500;
+                break;
+            case 200:
+                price = 600;
+                break;
+            case 400:
+                price = 1100;
+                break;
+        }
+
+        /*if(start == Station.TAIPEI_STATION){
             if (destination == Station.TAICHUNG_STATION){
                 price = 600;
             }else{
@@ -32,8 +44,9 @@ public class Ticket {
                 price = 900;
             }else{
                 price = 1500;
-            }
+            }*/
         }
+    public void println(){
+        System.out.println(start.name+"/t"+destination.name+"/t"+"price: "+price);
     }
-    public void println(){}
 }
