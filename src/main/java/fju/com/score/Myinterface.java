@@ -1,4 +1,4 @@
-package fju.com.gui;
+package fju.com.score;
 
 public interface Myinterface {
     public void test();

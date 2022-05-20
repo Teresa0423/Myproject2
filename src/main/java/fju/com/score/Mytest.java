@@ -1,6 +1,8 @@
-package fju.com.gui;
+package fju.com.score;
 
-public class Mytest implements Myinterface{
+import fju.com.score.Myinterface;
+
+public class Mytest implements Myinterface {
     public void test(){
 
     }
