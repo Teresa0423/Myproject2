@@ -36,5 +36,7 @@ fju/com/ticket/ConcessiontTicket.java
  fju.com.ticket.ConcessiontTicket
 fju/com/ticket/Tester.java
  fju.com.ticket.Tester
+ui/MyActionListenre.java
+ ui.MyActionListenre
 ui/MyWin.java
  ui.MyWin
