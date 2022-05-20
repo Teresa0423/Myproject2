@@ -22,8 +22,8 @@ fju/com/score/NG.java
  fju.com.score.NG
 Hello.java
  Hello
-ui/MyWin.java
- ui.MyWin
+fju/com/cus/GoldenCustomer.java
+ fju.com.cus.GoldenCustomer
 fju/com/score/Printtable.java
  fju.com.score.Printtable
 fju/com/ticket/Station.java
@@ -36,5 +36,5 @@ fju/com/ticket/ConcessiontTicket.java
  fju.com.ticket.ConcessiontTicket
 fju/com/ticket/Tester.java
  fju.com.ticket.Tester
-fju/com/cus/GoldenCustomer.java
- fju.com.cus.GoldenCustomer
+ui/MyWin.java
+ ui.MyWin
